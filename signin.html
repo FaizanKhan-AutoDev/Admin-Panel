@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body style="background-color: #F6F7FA;">
+
+    <div class="card container centered-element" style="height: 85vh; margin-bottom: 73px;margin-top: 45px;width: fit-content;background-color: #F6F7FA;">
+
+        <div class="signin-content">
+            <div class="signin-logo">
+                <img style="height: 6vh;"
+                    src="data:image/png;base64,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"
+                    alt="">
+            </div>
+
+            <div class="text-center">
+                <h3 class="text-body-highlight">Sign In</h3>
+                <p style="font-size: 17px;color: dimgray; margin-bottom: 52px;">Get access to your account</p>
+            </div>
+
+            <button type="button" class="w-100 mb-3 btn btn-phoenix-secondary signin-button"
+                style="border: 1px solid lightgray; font-size: 15px;font-weight: 600; height: 45px;">
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="google" style="height: 14px;"
+                    class="svg-inline--fa fa-google text-danger me-2 fs-9 me-1" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512">
+                    <path fill="currentColor"
+                        d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z">
+                    </path>
+
+                </svg>
+                Sign in with google
+            </button>
+            <button type="button" class="w-100 mb-3 btn btn-phoenix-secondary signin-button"
+                style="border: 1px solid lightgray; font-size: 15px;font-weight: 600; height: 45px;">
+                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" style="height: 14px;"
+                    class="svg-inline--fa fa-facebook text-primary me-2 fs-9 me-1" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                    </path>
+                </svg>
+                Sign in with google
+            </button>
+
+            <div class="email-line" style="object-fit: contain;width: 100%;">
+                <img src="css/email_ruler.png" alt="email_ruler" style="width: 100%;">
+            </div>
+
+            <div class="mb-3 text-start">
+                <label class="form-label"
+                    style="margin-left: 18px;font-size: 12.5px;font-weight: 500;margin-bottom: 2px;" for="email">
+                    EMAIL ADDRESS</label>
+                <div class="form-icon-container" style="position: relative;"><input placeholder="name@example.com"
+                        type="email" id="email" class="form-icon-input form-control" fdprocessedid="0x6yj8"
+                        style="font-size: 0.9rem; padding-left: 40px;">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user"
+                        class="svg-inline--fa fa-user text-body fs-9 form-icon" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                        style="height: 14px;position: absolute;height: 14px;top: 9px;left: 16px;">
+                        <path fill="currentColor"
+                            d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="mb-3 text-start"><label class="form-label"
+                    style="margin-left: 18px;font-size: 12.5px;font-weight: 500;margin-bottom: 2px;"
+                    for="email">PASSWORD</label>
+                <div class="form-icon-container" style="position: relative;"><input placeholder="Password" type="email"
+                        id="email" class="form-icon-input form-control" fdprocessedid="0x6yj8"
+                        style="font-size: 0.9rem; padding-left: 40px;">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="key"
+                        class="svg-inline--fa fa-key text-body fs-9 form-icon" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                        style="height: 14px;position: absolute;height: 14px;top: 9px;left: 16px;">
+                        <path fill="currentColor"
+                            d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V448h40c13.3 0 24-10.7 24-24V384h40c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zM376 96a40 40 0 1 1 0 80 40 40 0 1 1 0-80z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="flex-between-center mb-7 row" style="display: flex;justify-content: space-between;">
+                <div class="col-auto">
+                    <div class="mb-0 form-check"><input name="remember-me" type="checkbox" id="remember-me"
+                            class="form-check-input" checked=""><label for="remember-me"
+                            class="mb-0 form-check-label">Remember me</label></div>
+                </div>
+                <div class="col-auto"><a class="fs-9 fw-semibold" href="/pages/authentication/simple/forgot-password"
+                        style="text-decoration: none;">Forgot
+                        Password?</a></div>
+            </div>
+
+            <button type="button" class="btn btn-primary" fdprocessedid="h0cle"
+                style="margin-top: 61px;width: 100%;font-weight: 600;">Sign In</button>
+
+            <div class="text-center" style="margin-top: 20px;">
+                <a class="fs-9" style="text-decoration: none; font-weight: 600;" href="/signup.html">Create an
+                    account</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
